@@ -18,7 +18,7 @@ def system():
                         print "      \n"
                         print "       \n"
 			print "欢迎使用Ocean，现在的时间是:"
-			os.system("date /t")
+			os.system("date \n")
 			print "		\n"
 			print "========================================================\n"
 			print "您可以使用“帮助”命令来查看相应的命令提示 	\n"
