@@ -12,6 +12,6 @@ PS：Windows下运行可能因为代码页等问题出现乱码
 
 项目发起：@幻想乡的程序员  @Spruce_NXT
 
-Twitter  @Dream_Programer   
+Twitter/Facebook/Tunblr  @Dream_Programer   
 
 微博  @幻想乡的程序员
