@@ -87,9 +87,10 @@ def system():
 					aboutr()
 				if fonrf=="":
 					print "您还没有输入命令"
+					fonr()
 				if fonrf=="帮助":
 					def helpr():
-						helprr=open("help.txt")
+						helprr=open("./help.txt")
 						helpr=helprr.readline()
 						print helpr
 					helpr()
