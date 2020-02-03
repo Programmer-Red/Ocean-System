@@ -1,5 +1,5 @@
 # Ocean-System
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Ocean System</span> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/Programmer-Red/Ocean-System" property="cc:attributionName" rel="cc:attributionURL">Dream_Programmer</a> 采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。<br />基于<a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/Programmer-Red/Ocean-System" rel="dct:source">https://github.com/Programmer-Red/Ocean-System.git</a>上的作品创作。
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br /><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a>
 
 一款免费、开源的运行于Raspberry Pi的系统
 
