@@ -198,6 +198,7 @@ def system():
 			fonr()
 		else:
 			print "对不起，您输入的密码不正确"
+			print "   \n"
 			system()
 	elif Acc=="oceaner":
 		#普通用户的账号是windows
@@ -397,6 +398,7 @@ def system():
 		kalib()
 	else:
 		print "对不起，您输入的账号不存在，请重新尝试	\n"
+		print "   \n"
 		system()
 system()
 
