@@ -13,7 +13,7 @@ def system():
 	Acc=raw_input("账号：")
 	Pas=raw_input("密码：")
 	if Acc=="root":
-		#默认管理账号是root
+		#默认账号是root
 		if Pas=="toor":
                         print "      \n"
                         print "       \n"
@@ -292,7 +292,6 @@ def system():
 			fon()
 		else:
 			print "对不起，您输入的密码不正确"
-            print "   \n"
 	if Acc=="su":
 		def kalib():
 			print "您确定进入安全模式吗？\n"

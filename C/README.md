@@ -8,10 +8,11 @@
 
 有兴趣一起玩♂的朋友欢迎来找我鸭
 
-PS：Windows下运行可能因为代码页等问题出现乱码
+PS：Windows下运行可能因为代码页等问题出现乱码     （源码仅供学习交流，未经授权勿用于商业用途）
+
 
 项目发起：@幻想乡的程序员  @Spruce_NXT
 
 Twitter/Facebook/Tunblr  @Dream_Programer   
 
-微博  @幻想乡的程序员
+微博/B站  @幻想乡的程序员
