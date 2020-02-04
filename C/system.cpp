@@ -4,10 +4,10 @@
 
 int root(char r);
 int user(char u);
-int
+
 char r[10] = "root", t[10] = "toor";
 
-//首个C++的bate版本，算法基本和旧版Python一致
+//C++ bate版，算法参考python版
 
 int main()
 {
@@ -17,27 +17,29 @@ int main()
 	printf("©2013-2019  RED \n");
 	printf("  \n");
 	printf("户名:");
-	scanf_s("%c",&usef);
+	scanf_s("%s",&usef);
 
-	if (strcmp(usef,r)==1)
+	if (strcmp(usef,r)==0)
 	{
 		printf("密匙");
-		scanf_s("%c",&kef);
+		scanf_s("%s",&kef);
 		if (strcmp(kef,t)==1)
 		{
 			printf("Ocean [版本 1.0.0 bate] \n");
 			printf("(c) 2020 Dream_Programmer \n");
-			prinft(" \n");
-			char raw_input[20];
-			char tool[10] = "tool", ip[10] = "ip";
-			scanf("-->",&raw_input);
+			printf(" \n");
+			int k();
+				char raw_input[20];
+				char tool[10] = "tool", ip[10] = "ip";
+				scanf_s("-->%s",&raw_input);
 
+			
 		}
 		else
 		{
 
-			printf("对不起，您输入的密码有误");
-
+			printf("对不起，您输入的密码有误\n");
+			printf("  \n");
 
 		}
 
@@ -46,11 +48,11 @@ int main()
 	}
 	else
 	{
-		printf("库中不存在您的信息，请检查后重试");
 
+		printf("库中不存在您的信息，请检查后重试");
+		printf("");
 
 	}
 	
 	return 0;
 }
-
