@@ -2,4 +2,4 @@
 
 C版Ocean System的开发会以代替Python版为目的地进行，并提供Visual Studio编辑文件
 
-具体更新日志参见Change_log.txt
+具体更新日志见Change_log.txt
