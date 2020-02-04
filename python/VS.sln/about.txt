@@ -1,6 +1,0 @@
-               
-              关于
-===============
-系统版本：1.0.0 （bate-n）
-版权所有：幻想乡的程序员
-Github更新地址：https://github.com/Programmer-Red/Ocean-System

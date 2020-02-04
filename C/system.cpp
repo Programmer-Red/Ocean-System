@@ -1,14 +1,18 @@
-﻿#include <cstdlib>
-#include <cstdio>
+﻿#include <stdlib.h>
+#include <stdio.h>
 #include <string.h>
+#include "tool.h"
 
-int root(char r);
-int user(char u);
+int root();
+int user();
+int rootr(char );
+int userr();
 
-char r[10] = "root", t[10] = "toor";
+char o[10] = "root", t[10] = "toor";   
+char e[10] = "window", r[10] = "windows";
+//先这样简单粗暴地解决一下账户密码验证的问题就好wwwww
 
 //C++ bate版，算法参考python版
-
 int main()
 {
 	char kef[10], usef[10];
@@ -19,40 +23,67 @@ int main()
 	printf("户名:");
 	scanf_s("%s",&usef);
 
-	if (strcmp(usef,r)==0)
+	if (strcmp(usef,o)==0)
 	{
-		printf("密匙");
+		printf("密码:");
 		scanf_s("%s",&kef);
-		if (strcmp(kef,t)==1)
+		if (strcmp(kef,t)==0)
 		{
-			printf("Ocean [版本 1.0.0 bate] \n");
-			printf("(c) 2020 Dream_Programmer \n");
-			printf(" \n");
-			int k();
-				char raw_input[20];
-				char tool[10] = "tool", ip[10] = "ip";
-				scanf_s("-->%s",&raw_input);
-
-			
+			root();			
 		}
 		else
 		{
-
 			printf("对不起，您输入的密码有误\n");
 			printf("  \n");
-
 		}
+	}
+	if (strcmp(usef, e) == 0)
+	{
 
-
-
+		printf("密码:");
+		scanf_s("%s", &kef);
+		if (strcmp(kef, r) == 0)
+		{
+			user();
+		}
+		else
+		{
+			printf("对不起，您输入的密码有误\n");
+			printf("  \n");
+		}
 	}
 	else
 	{
-
-		printf("库中不存在您的信息，请检查后重试");
-		printf("");
-
+		printf("不存在的账户，请检查后重试");
+		printf("   \n");
 	}
-	
 	return 0;
+}
+
+int root()
+{
+	printf("Ocean [版本 1.0.0 bate] \n");
+	printf("(c) 2020 Dream_Programmer \n");
+	printf(" \n");
+	char raw_input[20];
+	char tool[10] = "tool", ip[10] = "ip";
+	scanf_s("-->%s", &raw_input);
+	return ;
+
+}
+
+
+int user()
+{
+	printf("Ocean [版本 1.0.0 bate] \n");
+	printf("(c) 2020 Dream_Programmer \n");
+	printf(" \n");
+	char raw_input[20];
+	char tool[10] = "tool", ip[10] = "ip";
+	scanf_s("-->%s", &raw_input);
+}
+
+int rootr()
+{
+
 }
