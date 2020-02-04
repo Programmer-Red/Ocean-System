@@ -1,7 +1,7 @@
 # Ocean-System
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
 
-一款免费、开源的运行于Raspberry Pi的系统
+一款免费、开源的Raspberry Pi专用Shell，使用C和Python编写
 
 =====================================
 
