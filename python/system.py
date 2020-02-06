@@ -15,14 +15,14 @@ def system():
 	if Acc=="root":
 		#默认管理账号是root
 		if Pas=="toor":
-                        print "      \n"
-                        print "       \n"
+                      	                print "      \n"
+                     	                print "       \n"
 			print "欢迎使用Ocean，现在的时间是:"
 			os.system("date \n")
 			print "		\n"
 			print "========================================================\n"
 			print "您可以使用“帮助”命令来查看相应的命令提示 	\n"
-                        def fonr():
+                                                def fonr():
 				fonrf=raw_input("-->")
 				if fonrf=="设置":
 					def shzr():
@@ -39,29 +39,31 @@ def system():
 								print "1.网络测试	2.退出"
 								wlanrf=input("-->")
 								if wlanrf==1:
-                                    print "请问您的使用地点是否为中国大陆(PRC)？\n"
-                                    print "   \n"
-                                    print "1.是的      2.不是"
-                                    wlanrp=raw_input("-->")
-                                    if wlanrp==1:
-									    print "请稍后，将为您载入网络测试模式...... 	\n"
-									    print "提示：如果您看到“请求超时”等字样，说明您的计算机网络连接存在问题，请及时检查网络驱动或网口是否连接正常\n"
-                                        print "      数据包收发测试将不会自动停止，请在检查收发状况正常后按“ctrl”和“c”来终止测试 \n"
-									    #先等待五秒让用户看一会儿。。。。
-									    time.sleep(8)
-									    os.system("ping www.baidu.com")
-									    time.sleep(2)
-									    print "测试结束，我们将为您转入“网络”设置的选择界面\n"
-                                    else：
-                                        print "请稍后，将为您载入网络测试模式...... 	\n"
-									    print "提示：如果您看到“请求超时”等字样，说明您的计算机网络连接存在问题，请及时检查网络驱动或网口是否连接正常\n"
-                                        print "      数据包收发测试将不会自动停止，请在检查收发状况正常后按“ctrl”和“c”来终止测试 \n"
-									    time.sleep(5)
-									    os.system("ping www.google.com")
-									    time.sleep(2)
-									    print "测试结束，我们将为您转入“网络”设置的选择界面\n"
 
-									wlanr()
+                                                                                                                           	                   print "请问您的使用地点是否为中国大陆(PRC)？\n"
+                                                                                                                                                   print "   \n"
+                                 							   print "1.是的      2.不是"
+                                                                                                                                                   wlanrp=raw_input("-->")
+                                                                                                                                                   if wlanrp==1:
+										    print "请稍后，将为您载入网络测试模式...... 	\n"
+									 	    print "提示：如果您看到“请求超时”等字样，说明您的计算机网络连接存在问题，请及时检查网络驱动或网口是否连接正常\n"
+                                      								    print "      数据包收发测试将不会自动停止，请在检查收发状况正常后按“ctrl”和“c”来终止测试 \n"
+										    #先等待五秒让用户看一会儿。。。。
+										    time.sleep(8)
+									 	    os.system("ping www.baidu.com")
+										    time.sleep(2)
+										    print "测试结束，我们将为您转入“网络”设置界面"
+                                				 			  else:
+                                        				                                                 	   print "请稍后，将为您载入网络测试模式...... 	\n"
+									 	   print "提示：如果您看到“请求超时”等字样，说明您的计算机网络连接存在问题，请及时检查网络驱动或网口是否连接正常\n"
+                                        				           	                                                   print "      数据包收发测试将不会自动停止，请在检查收发状况正常后按“ctrl”和“c”来终止测试 \n"
+	
+								               	                   time.sleep(5)
+									  	   os.system("ping www.google.com")
+										   time.sleep(2)
+									   	   print "测试结束，我们将为您转入“网络”设置的选择界面\n"
+
+									  	   wlanr()
 								if wlanrf==2:
 									shzr()
 							wlanr()

@@ -19,14 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="soft\tool\tool.cpp" />
     <ClCompile Include="system.cpp" />
-<<<<<<< HEAD
-    <ClCompile Include="tool.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="tool.h" />
-=======
->>>>>>> 1f714503c16df9260071bbf0e925dfd86d2d8c7e
+    <ClInclude Include="soft\tool\tool.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

@@ -1,7 +1,7 @@
 ﻿#include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include "tool.h"
+#include "../soft/tool/tool.h"
 
 int root();
 int user();
