@@ -38,7 +38,9 @@ int main()
 			printf("   \n");
 			printf("Ocean [版本 1.0.0 bate] \n");
 			printf("(c) 2020 Dream_Programmer \n");
-			printf(" \n");
+			printf("现在时间是：");
+			system("date");
+			printf("  \n");
 			root();
 		}
 		else
@@ -103,15 +105,25 @@ void user()
 void rootr(char input[cat])
 {
 
-	char toolr[cat]="你好，世界";
+	char toolr[cat]="工具";
+	char outwork[cat]="计算器";
+
+
+
+
 	if (strcmp(input,toolr)==0)
 	{
-		printf("Hello,world! \n");
-		root();
+		tool();
+		
+	}
+	if (strcmp(input,outwork)==0)
+	{
+		
 	}
 	else
 	{
 		printf("您输入的指令有误");
+		root();
 	}
 	system("pause");
 }
