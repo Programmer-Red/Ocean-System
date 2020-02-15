@@ -1,47 +1,58 @@
 ﻿#include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
-#include "../soft/tool/tool.h"
+#include "..\C\soft\tool\tool.h"
+#define cat 50
 
-int root();
-int user();
-int rootr(char );
-int userr();
+void root();
+void user();
+void rootr(char input[cat]);
 
-char o[10] = "root", t[10] = "toor";   
-char e[10] = "window", r[10] = "windows";
+
+
+char o[cat] = "root", t[cat] = "toor";   
+char e[cat] = "window", r[cat] = "windows";
+char error[1] = "";
 //先这样简单粗暴地解决一下账户密码验证的问题就好wwwww
+
+
 
 //C++ bate版，算法参考python版
 int main()
 {
-	char kef[10], usef[10];
+	char kef[cat], usef[cat];
 
-	printf("Ocean |版本 1.0.0\n");
-	printf("©2013-2019  RED \n");
-	printf("  \n");
+
+
 	printf("户名:");
-	scanf_s("%s",&usef);
+	scanf_s("%s",&usef,cat);
 
 	if (strcmp(usef,o)==0)
 	{
 		printf("密码:");
-		scanf_s("%s",&kef);
+		scanf_s("%s",&kef,cat);
 		if (strcmp(kef,t)==0)
 		{
-			root();			
+			char Rraw_input[cat];
+			printf("   \n");
+			printf("   \n");
+			printf("Ocean [版本 1.0.0 bate] \n");
+			printf("(c) 2020 Dream_Programmer \n");
+			printf(" \n");
+			root();
 		}
 		else
 		{
 			printf("对不起，您输入的密码有误\n");
 			printf("  \n");
+			main();
 		}
 	}
-	if (strcmp(usef, e) == 0)
+	if (strcmp(usef,e) == 0)
 	{
 
 		printf("密码:");
-		scanf_s("%s", &kef);
+		scanf_s("%s", &kef,cat);
 		if (strcmp(kef, r) == 0)
 		{
 			user();
@@ -52,38 +63,55 @@ int main()
 			printf("  \n");
 		}
 	}
+	if (strcmp(usef,error)==0)
+	{
+		printf("不存在的账户，请检查后重试");
+		printf("   \n");
+		main();
+	}
 	else
 	{
 		printf("不存在的账户，请检查后重试");
 		printf("   \n");
+		main();
 	}
+	system("pause");
 	return 0;
 }
 
-int root()
+void root()
 {
-	printf("Ocean [版本 1.0.0 bate] \n");
-	printf("(c) 2020 Dream_Programmer \n");
-	printf(" \n");
-	char raw_input[20];
-	char tool[10] = "tool", ip[10] = "ip";
-	scanf_s("-->%s", &raw_input);
-	return ;
-
+	char Rraw_input[cat];
+	printf("-->");
+	scanf_s("%s", Rraw_input, cat);
+	rootr(Rraw_input);
+	system("pause");
 }
 
 
-int user()
+void user()
 {
+	char raw_input[cat];
 	printf("Ocean [版本 1.0.0 bate] \n");
 	printf("(c) 2020 Dream_Programmer \n");
 	printf(" \n");
-	char raw_input[20];
-	char tool[10] = "tool", ip[10] = "ip";
-	scanf_s("-->%s", &raw_input);
+	printf("-->");
+	scanf_s("%s", raw_input,cat);
+
 }
 
-int rootr()
+void rootr(char input[cat])
 {
 
+	char toolr[cat]="你好，世界";
+	if (strcmp(input,toolr)==0)
+	{
+		printf("Hello,world! \n");
+		root();
+	}
+	else
+	{
+		printf("您输入的指令有误");
+	}
+	system("pause");
 }
