@@ -1,19 +1,11 @@
 # Ocean-System
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />
 
-一款免费、开源的Raspberry Pi专用Shell，使用C和Python编写
+一个不知道什么时候才能完成的Raspberry Pi Sysytem项目
 
-=====================================
-
-            一些说明
+            此项目已加入Githuh北极代码库(Arctic Code Vault Contributor)
             
-其实很早之前和朋友就有打算（瞎尝试
 
-于是就有了这个东西（朋友跳坑到硬件了
-
-有兴趣一起玩的朋友欢迎来找我鸭
-
-   
 
 
 
